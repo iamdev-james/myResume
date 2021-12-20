@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/a20452da6e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css" />
+    <title>My Resume | Dev. James</title>
+    <style>
+#header-home {
+  background: url("showcase.jpg") no-repeat center right/cover black;
+  height: 100vh;
+  color: rgb(19, 18, 18); }
+#header-inner {
+  background: url("showcase.jpg") no-repeat 20% 30%/cover;
+  height: 5.5rem;
+  border-bottom: 3px solid #ffbc00; }
+.skill_sec {
+  background: url('bg.jpg') no-repeat center center/cover;
+  color: aliceblue !important;
+}
+@media (max-width: 500px) {
+  #header-home {
+    height: 20vh;
+  }
+}
+</style>
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header-home">
+      <div class="container">
+        <nav id="main-nav">
+          <img src="logo.jpg" alt="My Portfolio" id="logo" />
+          <div class="social">
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+          </div>
+        </nav>
+        <div class="header-content">
+          <h1>
+            I Am James The
+            <span
+              class="txt-type"
+              data-wait="3000"
+              data-words='["Designer","Developer",  "Data Analyst"]'
+            ></span>
+          </h1>
+          <p class="lead">
+            I specialize in Web Design, Web Development and Data Analysis
+          </p>
+          <a href="#project" class="btn-light">View My Work</a>
+          <a href="#contact" class="btn-light">Hire Me</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Section A: Specialize -->
+    <section id="home-a" class="text-center py-2">
+      <div class="container">
+        <h2 class="section-title">I Specialize In</h2>
+        <div class="bottom-line"></div>
+        <p class="lead">
+          Programming, Development and I also convert beautiful designs into readable code  
+        </p>
+        <div class="specials">
+          <div>
+            <i class="fa fa-file-alt fa-2x"></i>
+            <h3>Concepting</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis,
+              molestias repellat quibusdam adipisci quas sed ullam accusantium
+              aliquam numquam quidem.
+            </p>
+          </div>
+          <div>
+            <i class="fas fa-desktop fa-2x"></i>
+            <h3>Web Design</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis,
+              molestias repellat quibusdam adipisci quas sed ullam accusantium
+              aliquam numquam quidem.
+            </p>
+          </div>
+          <div>
+            <i class="fas fa-object-ungroup fa-2x"></i>
+            <h3>Web Development</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis,
+              molestias repellat quibusdam adipisci quas sed ullam accusantium
+              aliquam numquam quidem.
+            </p>
+          </div>
+          <div>
+            <i class="fa fa-thumbs-up fa-2x"></i>
+            <h3>Interaction</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis,
+              molestias repellat quibusdam adipisci quas sed ullam accusantium
+              aliquam numquam quidem.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section B: Stats -->
+    <section id="home-b" class="text-center py-2">
+      <div class="stats">
+        <div>
+          <ul>
+            <li><i class="fa fa-users fa-3x"></i></li>
+            <li class="stats-title">Clients</li>
+            <li class="stats-number">100</li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li><i class="fas fa-award fa-3x"></i></li>
+            <li class="stats-title">Awards</li>
+            <li class="stats-number">3</li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li><i class="fas fa-hourglass-split fa-3x"></i></li>
+            <li class="stats-title">Hours Worked</li>
+            <li class="stats-number">3500</li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li><i class="fa fa-code-branch fa-3x"></i></li>
+            <li class="stats-title">Projects Completed</li>
+            <li class="stats-number">85</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section C: Process -->
+    <section id="home-c" class="text-center py-2">
+      <div class="container">
+        <h2 class="section-title">
+          My Creative Process
+        </h2>
+        <div class="bottom-line"></div>
+        <p class="lead">
+          All of my UI/UX and design projects are based off of a practiced
+          formula to get the result that I am looking for
+        </p>
+        <div class="process">
+          <div>
+            <i class="fa fa-file-alt fa-4x process-icon my-2">
+              <div class="process-step">1</div>
+            </i>
+            <h3>Discuss The Project</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+              voluptas laborum repellendus dolorum! Harum, cupiditate.
+            </p>
+          </div>
+          <div>
+            <i class="fa fa-desktop fa-4x process-icon my-2">
+              <div class="process-step">2</div>
+            </i>
+            <h3>Brainstorming ^ Concept</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+              voluptas laborum repellendus dolorum! Harum, cupiditate.
+            </p>
+          </div>
+          <div>
+            <i class="fa fa-object-ungroup fa-4x process-icon my-2">
+              <div class="process-step">3</div>
+            </i>
+            <h3>UI/UX Planning</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+              voluptas laborum repellendus dolorum! Harum, cupiditate.
+            </p>
+          </div>
+          <div>
+            <i class="fa fa-thumbs-up fa-4x process-icon my-2">
+              <div class="process-step">4</div>
+            </i>
+            <h3>Interaction</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+              voluptas laborum repellendus dolorum! Harum, cupiditate.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- ABOUT SECTION -->
+<section id="about-a" class="text-center py-3">
+  <div class="container">
+    <h2 class="section-title">About Me</h2>
+    <div class="bottom-line"></div>
+    <p class="lead">
+      Let me tell you a little about myself and what I do...
+    </p>
+    <div class="about-info">
+      <img src="img/about.jpg" alt="" class="bio-image" style="height: 60px;"/>
+      <div class="bio bg-light">
+        <h4>Your Project Is In Safe Hands</h4>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          Perspiciatis nostrum, eaque velit ipsam facilis sed, quisquam
+          nesciunt unde nihil voluptatum commodi consequuntur molestiae?
+          Fugiat, perspiciatis reprehenderit. Architecto delectus vitae
+          deserunt!
+        </p>
+      </div>
+      <div class="award-1">
+        <i class="fas fa-award fa-3x"></i>
+        <h3>Award One</h3>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+          magni!
+        </p>
+      </div>
+      <div class="award-2">
+        <i class="fas fa-award fa-3x"></i>
+        <h3>Award Two</h3>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+          magni!
+        </p>
+      </div>
+      <div class="award-3">
+        <i class="fas fa-award fa-3x"></i>
+        <h3>Award Three</h3>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+          magni!
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section B: SKILLS Section -->
+<section id="about-b" class= "py-3 skill_sec">
+  <div class="container">
+    <h2 class="section-title">Technical Skills</h2>
+    <div class="bottom-line"></div>
+    <h4>NodeJS:</h4>
+    <div class="progress">
+      <div style="width:80%"></div>
+    </div>
+    <h4>ReactJS:</h4>
+    <div class="progress">
+      <div style="width:70%"></div>
+    </div>
+    <h4>JQuery</h4>
+    <div class="progress">
+      <div style="width:90%"></div>
+    </div>
+    <h4>HTML & CSS:</h4>
+    <div class="progress">
+      <div style="width:100%"></div>
+    </div>
+    <h4>SEO:</h4>
+    <div class="progress">
+      <div style="width:90%"></div>
+    </div>
+    <h4>JAVASCRIPT(ES6):</h4>
+    <div class="progress">
+      <div style="width:100%"></div>
+    </div>
+    <h4>BOOTSTRAP and MATERIALISE:</h4>
+    <div class="progress">
+      <div style="width:100%"></div>
+    </div>
+    <h4>CSS Preprocessors:</h4>
+    <div class="progress">
+      <div style="width:100%"></div>
+    </div>
+    <h4>NO SQL(mongodb):</h4>
+    <div class="progress">
+      <div style="width:100%"></div>
+    </div>
+    <h4>CONTINUOUS INTEGRATION AND DEPLOYMENT(HEROKU, NETLIFY):</h4>
+    <div class="progress">
+      <div style="width:100%"></div>
+    </div>
+  </div>
+</section>
+
+<!-- WORK EXPERIENCE -->
+<div id="project">
+<div class="container">
+  <h2 class="section-title">Work Experience</h2>
+  <div class="bottom-line"></div>
+<div id="company">
+<div class="company-1">
+  <i class="fas fa-building fa-3x"></i>
+  <h3><b>HNG Limited</b></h3>
+  <small><i>2021 - present</i></small>
+  <p>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+    magni!
+  </p>
+</div>
+<div class="company-2">
+  <i class="fas fa-building fa-3x"></i>
+  <h3><b>HALL MARK</b></h3>
+  <small><i>2020 - present</i></small>
+  <p>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+    magni!
+  </p>
+</div>
+<div class="company-3">
+  <i class="fas fa-building fa-3x"></i>
+  <h3><b>AFRITECH</b></h3>
+  <small><i>2019 - 2021</i></small>
+  <p>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+    magni!
+  </p>
+ </div>
+</div>
+</div>
+
+<!-- CONTACT SECTION -->
+<div id="contact">
+<section id="contact-a" class="text-center py-3">
+  <div class="container">
+    <h2 class="section-title">Contact Me</h2>
+    <div class="bottom-line"></div>
+    <p class="lead">Drop a message for me below</p>
+    <form action="/add" method="POST" >
+      <div class="text-fields">
+        <input
+          type="text"
+          class="text-input name-input"
+          placeholder="Name"
+          name="name"
+        />
+        <input
+          type="text"
+          class="text-input subject-input"
+          placeholder="Subject"
+          name="subject"
+        />
+        <input
+          type="email"
+          class="text-input email-input"
+          placeholder="Email Address"
+          name="email"
+        />
+        <input
+          type="text"
+          class="text-input phone-input"
+          placeholder="Phone Number"
+          name="phone"
+        />
+        <textarea
+          class="text-input message-input"
+          placeholder="Enter Message"
+          name="message"
+        ></textarea>
+      </div>
+      <button type="submit" class="btn-dark">Submit</button>
+    </form>
+  </div>
+</section>
+
+<!-- Section B: Contact Info -->
+<section id="contact-b" class="py-3 bg-dark">
+  <div class="container">
+    <div class="contact-info">
+      <div>
+        <i class="fas fa-envelope fa-2x"></i>
+        <h3>Email</h3>
+        <p>devjames@gmail.com</p>
+      </div>
+      <div>
+        <i class="fas fa-phone fa-2x"></i>
+        <h3>Phone</h3>
+        <p>(234) 706-8708-613</p>
+      </div>
+      <div>
+        <i class="fas fa-address-card fa-2x"></i>
+        <h3>Address</h3>
+        <p>Oyo state, Nigeria</p>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+<hr/>
+
+    <!-- Footer -->
+    <footer id="main-footer">
+      <div class="footer-content container">
+        <p>Copyright &copy; 2021. All Rights Reserved</p>
+      </div>
+    </footer>
+    <script>
+class TypeWriter {
+  constructor(txtElement, words, wait = 3000) {
+    this.txtElement = txtElement;
+    this.words = words;
+    this.txt = '';
+    this.wordIndex = 0;
+    this.wait = parseInt(wait, 10);
+    this.type();
+    this.isDeleting = false;
+  }
+
+  type() {
+    // Current index of word
+    const current = this.wordIndex % this.words.length;
+    // Get full text of current word
+    const fullTxt = this.words[current];
+
+    // Check if deleting
+    if (this.isDeleting) {
+      // Remove char
+      this.txt = fullTxt.substring(0, this.txt.length - 1);
+    } else {
+      // Add char
+      this.txt = fullTxt.substring(0, this.txt.length + 1);
+    }
+
+    // Insert txt into element
+    this.txtElement.innerHTML = `<span class="txt">${this.txt}</span>`;
+
+    // Initial Type Speed
+    let typeSpeed = 300;
+
+    if (this.isDeleting) {
+      typeSpeed /= 2;
+    }
+
+    // If word is complete
+    if (!this.isDeleting && this.txt === fullTxt) {
+      // Make pause at end
+      typeSpeed = this.wait;
+      // Set delete to true
+      this.isDeleting = true;
+    } else if (this.isDeleting && this.txt === '') {
+      this.isDeleting = false;
+      // Move to next word
+      this.wordIndex++;
+      // Pause before start typing
+      typeSpeed = 500;
+    }
+
+    setTimeout(() => this.type(), typeSpeed);
+  }
+}
+
+// Init On DOM Load
+document.addEventListener('DOMContentLoaded', init);
+
+// Init App
+function init() {
+  const txtElement = document.querySelector('.txt-type');
+  const words = JSON.parse(txtElement.getAttribute('data-words'));
+  const wait = txtElement.getAttribute('data-wait');
+  // Init TypeWriter
+  new TypeWriter(txtElement, words, wait);
+}
+
+    </script>
+  </body>
+</html>
