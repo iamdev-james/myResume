@@ -61,7 +61,7 @@ app.post('/add', (req, res)=> {
   })
  })
 
-app.listen(4400, ()=>{
+app.listen(process.env.PORT || 4400, ()=>{
   console.log('Server is running')
 })
 
